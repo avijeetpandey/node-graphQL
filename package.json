@@ -1,0 +1,13 @@
+{
+  "name": "server-side-graphql",
+  "version": "1.0.0",
+  "description": "Demonstration on how to use graphQL on server side",
+  "main": "index.js",
+  "repository": "https://github.com/avijeetpandey/node-graphQL.git",
+  "author": "Avijeet Pandey <avijeetpandey25@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "graphql-tag": "^2.11.0"
+  }
+}
