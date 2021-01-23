@@ -20,3 +20,9 @@ The graphQL server can fit into different scenarios example
 - A GraphQL server as layer in front of many 3rd party services and connects them all in one GraphQL API
 - A hybrid approach where GraphQL server has a connected DB and also communicates with 3rd party services
 
+## Key Parts of a GraphQL schema 
+- **Types -** a construct defining a shape with fields
+- **Fields -** keys on a Type that have a name and a value type
+- **Scalars -** primitive value type built into GraphQL
+- **Query -** type that defines how clients can access data
+- **Mutation -** type that defines how clients can modify or create data
