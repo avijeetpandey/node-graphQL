@@ -33,7 +33,7 @@ The graphQL server can fit into different scenarios example
 - **Query -** type that defines how clients can access data
 - **Mutation -** type that defines how clients can modify or create data
 
-## Queries
+## Queries and Resolvers
 
 Below are the basic steps that are followed while creating Queries
 
@@ -52,3 +52,16 @@ Below are the basic steps that are followed while creating Queries
     me: User
   }
 ```
+
+Resolvers are responsible from returning the values for fields that exists on types in a schema . The execution of a resolver is dependent on the incoming client queries
+
+Below are the things to keep in mind about resolvers :-
+
+- Resolver name must match the exact field name on the schema type
+- It must return the value type declared for the matching field
+- Resolvers can be async
+- Can retrieve data from any source
+
+## In GraphQL Server + Resolvers = Server
+
+Basically to create a minimum server , we need a Query type with a field and a resolver for that field
